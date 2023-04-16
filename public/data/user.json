@@ -1,0 +1,21 @@
+{
+  "users":
+  [
+    {
+      "DisplayName": "Jane Doe",
+      "EmailAddress": "janeDoe@example.com",
+      "Username": "jane",
+      "Password":"jane123"
+
+    },
+    {
+      "DisplayName": "Admin",
+      "EmailAddress": "Admin@example.com",
+      "Username": "admin",
+      "Password": "987654"
+    }
+
+
+
+  ]
+}

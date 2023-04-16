@@ -1,0 +1,47 @@
+
+    <main class="container">
+        <h1>Contact Us</h1>
+        <div id="messageArea" ></div>
+        <div class="row justify-content-lg-center g-3">
+
+            <form class="col-lg-6 col-md-6 col-sm-6">
+
+                <div class=" input-group-text mb-3">
+                    <span class="form-label">Full Name</span>
+                    <input id="fullName" name="fullName" type="text" class="form-control"
+                           aria-describedby="full Name Input" aria-label="Full Name Input">
+                </div>
+
+                <div class="input-group-text mb-3">
+                    <span class="form-label">Contact Number</span>
+                    <input id="contactNumber" name="contactNumber" type="tel" class="form-control"
+                           aria-describedby="contact Number Input" aria-label="contact Number Input">
+                </div>
+
+                <div class="input-group-text  mb-3">
+                    <span class="form-label">Email address</span>
+                    <input id="emailAddress" name="emailAddress" type="email" class="form-control"
+                           aria-describedby="email Input" aria-label="email Input">
+                </div>
+
+                <div class="input-group-text mb-3">
+                    <span class="form-label">Message</span>
+                    <input id="message" name="message" type="text" class="form-control"
+                           rows="4" cols="50" aria-describedby="message Input" aria-label="message Input">
+                </div>
+
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="suscribecheckbox">
+                    <label class="form-check-label" for="suscribecheckbox">subscribe to out contact list</label>
+                </div>
+
+
+                <button id="sendButton" type="submit" class="btn btn-primary">
+                    <i class="fas fa-envelope fa-lg"></i>Submit</button>
+            </form>
+            <div class="col-lg-4 col-md-4">
+                <a href="/contact-list" class="btn btn-primary btn-lg link">
+                    <i >Show contact list</i></a>
+            </div>
+        </div>
+    </main>

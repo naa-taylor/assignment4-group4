@@ -1,0 +1,24 @@
+{
+  "contacts":
+  [
+    {
+      "DisplayName": "Peter Parker",
+      "ContactNumber": "416-555-5555",
+      "EmailAddress": "pparker@domain.com"
+
+    },
+    {
+      "DisplayName": "Admin",
+      "ContactNumber": "416-444-4545",
+      "EmailAddress": "Admin@example.com"
+
+    },
+    {
+      "DisplayName": "naj",
+      "ContactNumber": "905-222-2222",
+      "EmailAddress": "naj@domain.com"
+
+    }
+
+  ]
+}
